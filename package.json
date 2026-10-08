@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/anz031-dotcom/110-lab2#readme",
   "devDependencies": {
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
   }
 }
