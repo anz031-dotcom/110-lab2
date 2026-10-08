@@ -6,6 +6,10 @@ describe("snacks", () => {
     expect(snacks.length).toBeGreaterThanOrEqual(3);
   });
 
+  it("should have at least 4 items", () => {
+    expect(snacks.length).toBeGreaterThanOrEqual(4);
+  });
+
   it("should include 'Cheetos'", () => {
     expect(snacks).toContain("Cheetos");
   });
