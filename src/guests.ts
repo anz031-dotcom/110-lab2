@@ -1,5 +1,5 @@
 import { printBold } from "./animation";
-const guests: string[] = ["John", "Anna", "Alex", "Steve"];
+export const guests: string[] = ["John", "Anna", "Alex", "Steve"];
 
 //will display bold guest name
 export function displayGuests(guests: string[]): void{
