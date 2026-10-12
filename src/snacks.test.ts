@@ -7,8 +7,8 @@ describe("snacks", () => {
     expect(snacks.length).toBeGreaterThanOrEqual(3);
   });
 
-  it("should include 'chips'", () => {
-    expect(snacks).toContain("chips");
+  it("should include 'Cheetos'", () => {
+    expect(snacks).toContain("Cheetos");
   });
 });
 
